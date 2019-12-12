@@ -1,0 +1,319 @@
+html {
+    font-size: 16px;
+}
+$azulbase:#42A5F5;
+$azuloscuro: #29304E;
+$azulproyecto: #ECEFF1;
+$violetaitem: #2C69CC;
+$blaco: #ffffff;
+$grisoscuro:#212121;
+
+* {
+    box-sizing: border-box;
+   
+}
+
+
+
+section {
+    min-height: 100vh;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 11.5px;
+    }
+}
+
+@media (min-width: 1919.98px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    html {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    html{
+        font-size: 9px;
+      
+    }
+}
+
+.navbar {
+   
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    
+    .logo {
+        height: 3rem;
+        
+    }
+}
+
+
+
+#Contenido {
+    width: 100%;
+    height: 100%;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 10rem;
+    font-family: 'Poppins', sans-serif;
+
+    #parrafo-inicial {
+        font-weight: 800;
+       
+        font-size: 2.8rem;
+        
+        .nombre {
+            color: $azulbase;
+        }
+        a{
+            color: $grisoscuro;
+            text-decoration:none;
+            outline: none;
+        }
+        .iconos-header-container {
+            text-align: center;
+
+            .iconos-header {
+                text-align: center;
+                height: 4rem;
+            }
+
+            .texto-iconos-header {
+                text-align: center;
+                font-size: 1rem;
+                font-weight: 600;
+            }
+        }
+    }
+    .linea-proyectos {
+        a{
+            color: $grisoscuro;
+            text-decoration:none;
+            outline: none;
+        }
+        .iconos-header-container {
+            text-align: center;
+
+            .iconos-header {
+                text-align: center;
+                height: 5rem;
+            }
+
+            .texto-iconos-header {
+                text-align: center;
+                font-size: 1rem;
+                font-weight: 600;
+            }
+        }    
+        margin-top: 6rem;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    
+        .flecha {
+            margin-top: 2rem;
+            height: 5rem;
+            margin-bottom: 6rem;
+        }
+    }
+
+}
+
+
+
+#Proyectos {
+    width: 100%;
+    height: 100%;
+    padding-top: 8em;
+    padding-bottom: 4em;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    .main-proyectos {
+        .contenedor-proyecto {
+            margin-top: 4rem;
+            font-family: 'Poppins', sans-serif;
+            border-radius: 25px;
+            background-color: $azulproyecto;
+            font-size: 1.4 rem;
+            .titulo-muestra {
+                font-family: 'Poppins', sans-serif;
+                font-weight: 600;
+                font-size: 1.6rem;
+            }
+            .texto-pro{
+                font-size: 1.2rem;
+            }
+            .acento-azul {
+                font-size: 1.4rem;
+                color: $azuloscuro;
+                font-weight: 600;
+                line-height: 0.5rem;
+            }
+
+            .acento-violeta {
+                line-height: 0.1rem;
+                font-size: 1rem;
+                color: $violetaitem;
+                font-weight: 600;
+            }
+
+            .img-prevista {
+                border-radius: 25px;
+               justify-items: center;
+            }
+
+            .boton-p {
+                margin-right: 1rem;
+                margin-top: 3rem;
+                margin-bottom: 1rem;
+                font-weight: 700;
+                color: $blaco;
+                border-radius: 25px;
+                background-color: $violetaitem;
+            }
+
+            .imagen-boton-pro {
+                height: 2rem;
+                padding-right: 0.5rem;
+            }
+        }
+    }
+}
+
+#Acerca {
+    width: 100%;
+    height: 100%;
+    padding-top: 8em;
+    padding-bottom: 4em;
+    font-family: 'Montserrat', sans-serif;
+    .contenedor-imagen{
+        text-align: center;
+        .foto{
+            text-align: center;
+            height: 16rem;
+        }
+        
+        .parrafo-perfil {
+            
+            text-align: center;
+            font-weight: 700;
+            align-items: center;
+            font-size: 1.8rem;
+    
+            .nombre {
+                color: $azulbase;
+            }
+        }
+    }
+    .parrafo-secundario{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.4rem; 
+        font-weight: 700;    
+    }
+    .parrafo-tercero{
+        padding: 1rem;
+        text-align: justify;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem; 
+    }
+    
+}
+#Contacto{
+    width: 100%;
+    height: 100%;
+    padding-top: 8em;
+    padding-bottom: 4em;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    a{
+        color: $grisoscuro;
+        text-decoration:none;
+        outline: none;
+    }
+    .contenedor-form{
+     
+        background-color: $azulproyecto;
+        border-radius: 25px;
+        .titulo-contacto{
+            font-size: 2.4rem;
+            font-weight: 800;
+            text-align: center;
+        }
+        .contacto-texto{
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.2rem;
+            border-radius: 25px;
+            outline: none;
+             
+        }
+        .contacto-texto-largo{
+            
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.2rem;
+            border-radius: 15px;
+            outline: none;
+             
+        }
+        .enviar-boton{
+            border-radius: 25px;
+            background-color: $azulbase;
+            color: $blaco; 
+            font-family: 'Poppins', sans-serif;
+            font-weight: 800;
+            font-size: 1.2rem;
+        }
+        
+    }
+
+    .iconos-sociales{
+        padding-top: 2rem;
+        .iconos-container{
+        
+            text-align: center;
+            color: $grisoscuro;
+           
+    
+            a{
+                text-decoration:none;
+                outline: none;
+            }
+    
+            .iconos-contacto{
+                text-align: center;
+                height: 4rem;
+              
+            }
+            .texto-iconos-header {
+                text-align: center;
+                font-size: 0.9em;
+                font-weight: 600;
+            }
+        }
+    }
+    #imagen-contacto{
+        padding-top: 8rem;
+    }
+    
+    
+}

@@ -1,0 +1,208 @@
+html {
+  font-size: 16px; }
+
+* {
+  box-sizing: border-box; }
+
+section {
+  min-height: 100vh; }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  html {
+    font-size: 10px; } }
+@media (min-width: 1200px) {
+  html {
+    font-size: 11.5px; } }
+@media (min-width: 1919.98px) {
+  html {
+    font-size: 16px; } }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  html {
+    font-size: 12px; } }
+@media (max-width: 575.98px) {
+  html {
+    font-size: 11px; } }
+@media (min-width: 576px) and (max-width: 767.98px) {
+  html {
+    font-size: 9px; } }
+.navbar {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600; }
+  .navbar .logo {
+    height: 3rem; }
+
+#Contenido {
+  width: 100%;
+  height: 100%;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  padding-top: 10rem;
+  font-family: 'Poppins', sans-serif; }
+  #Contenido #parrafo-inicial {
+    font-weight: 800;
+    font-size: 2.8rem; }
+    #Contenido #parrafo-inicial .nombre {
+      color: #42A5F5; }
+    #Contenido #parrafo-inicial a {
+      color: #212121;
+      text-decoration: none;
+      outline: none; }
+    #Contenido #parrafo-inicial .iconos-header-container {
+      text-align: center; }
+      #Contenido #parrafo-inicial .iconos-header-container .iconos-header {
+        text-align: center;
+        height: 4rem; }
+      #Contenido #parrafo-inicial .iconos-header-container .texto-iconos-header {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 600; }
+  #Contenido .linea-proyectos {
+    margin-top: 6rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center; }
+    #Contenido .linea-proyectos a {
+      color: #212121;
+      text-decoration: none;
+      outline: none; }
+    #Contenido .linea-proyectos .iconos-header-container {
+      text-align: center; }
+      #Contenido .linea-proyectos .iconos-header-container .iconos-header {
+        text-align: center;
+        height: 5rem; }
+      #Contenido .linea-proyectos .iconos-header-container .texto-iconos-header {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 600; }
+    #Contenido .linea-proyectos .flecha {
+      margin-top: 2rem;
+      height: 5rem;
+      margin-bottom: 6rem; }
+
+#Proyectos {
+  width: 100%;
+  height: 100%;
+  padding-top: 8em;
+  padding-bottom: 4em;
+  padding-left: 2rem;
+  padding-right: 2rem; }
+  #Proyectos .main-proyectos .contenedor-proyecto {
+    margin-top: 4rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    background-color: #ECEFF1;
+    font-size: 1.4 rem; }
+    #Proyectos .main-proyectos .contenedor-proyecto .titulo-muestra {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 1.6rem; }
+    #Proyectos .main-proyectos .contenedor-proyecto .texto-pro {
+      font-size: 1.2rem; }
+    #Proyectos .main-proyectos .contenedor-proyecto .acento-azul {
+      font-size: 1.4rem;
+      color: #29304E;
+      font-weight: 600;
+      line-height: 0.5rem; }
+    #Proyectos .main-proyectos .contenedor-proyecto .acento-violeta {
+      line-height: 0.1rem;
+      font-size: 1rem;
+      color: #2C69CC;
+      font-weight: 600; }
+    #Proyectos .main-proyectos .contenedor-proyecto .img-prevista {
+      border-radius: 25px;
+      justify-items: center; }
+    #Proyectos .main-proyectos .contenedor-proyecto .boton-p {
+      margin-right: 1rem;
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      font-weight: 700;
+      color: #ffffff;
+      border-radius: 25px;
+      background-color: #2C69CC; }
+    #Proyectos .main-proyectos .contenedor-proyecto .imagen-boton-pro {
+      height: 2rem;
+      padding-right: 0.5rem; }
+
+#Acerca {
+  width: 100%;
+  height: 100%;
+  padding-top: 8em;
+  padding-bottom: 4em;
+  font-family: 'Montserrat', sans-serif; }
+  #Acerca .contenedor-imagen {
+    text-align: center; }
+    #Acerca .contenedor-imagen .foto {
+      text-align: center;
+      height: 16rem; }
+    #Acerca .contenedor-imagen .parrafo-perfil {
+      text-align: center;
+      font-weight: 700;
+      align-items: center;
+      font-size: 1.8rem; }
+      #Acerca .contenedor-imagen .parrafo-perfil .nombre {
+        color: #42A5F5; }
+  #Acerca .parrafo-secundario {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700; }
+  #Acerca .parrafo-tercero {
+    padding: 1rem;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem; }
+
+#Contacto {
+  width: 100%;
+  height: 100%;
+  padding-top: 8em;
+  padding-bottom: 4em;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-family: 'Montserrat', sans-serif; }
+  #Contacto a {
+    color: #212121;
+    text-decoration: none;
+    outline: none; }
+  #Contacto .contenedor-form {
+    background-color: #ECEFF1;
+    border-radius: 25px; }
+    #Contacto .contenedor-form .titulo-contacto {
+      font-size: 2.4rem;
+      font-weight: 800;
+      text-align: center; }
+    #Contacto .contenedor-form .contacto-texto {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.2rem;
+      border-radius: 25px;
+      outline: none; }
+    #Contacto .contenedor-form .contacto-texto-largo {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.2rem;
+      border-radius: 15px;
+      outline: none; }
+    #Contacto .contenedor-form .enviar-boton {
+      border-radius: 25px;
+      background-color: #42A5F5;
+      color: #ffffff;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 800;
+      font-size: 1.2rem; }
+  #Contacto .iconos-sociales {
+    padding-top: 2rem; }
+    #Contacto .iconos-sociales .iconos-container {
+      text-align: center;
+      color: #212121; }
+      #Contacto .iconos-sociales .iconos-container a {
+        text-decoration: none;
+        outline: none; }
+      #Contacto .iconos-sociales .iconos-container .iconos-contacto {
+        text-align: center;
+        height: 4rem; }
+      #Contacto .iconos-sociales .iconos-container .texto-iconos-header {
+        text-align: center;
+        font-size: 0.9em;
+        font-weight: 600; }
+  #Contacto #imagen-contacto {
+    padding-top: 8rem; }
+
+/*# sourceMappingURL=styles.css.map */
